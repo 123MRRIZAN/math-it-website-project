@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math + IT Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-300 via-purple-200 to-pink-200 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="bg-indigo-700 text-white p-4 shadow-lg flex justify-between">
+    <h1 class="font-bold text-xl">🏠 Home Page </h1>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:text-yellow-300">Home</a>
+      <a href="calculator.html" class="hover:text-yellow-300">Calculator</a>
+      <a href="graph.html" class="hover:text-yellow-300">Graph Plotter</a>
+      <a href="about.html" class="hover:text-yellow-300">About</a>
+    </div>
+  </nav>
+
+  <!-- Cover Page -->
+  <section class="h-screen flex flex-col justify-center items-center text-center">
+    <div class="bg-white bg-opacity-80 p-10 rounded-2xl shadow-xl">
+      <h1 class="text-5xl font-bold mb-4">Mathematics & Computer Technology</h1>
+      <p class="text-lg">Exploring how Mathematics powers Computers & IT</p>
+      <div class="mt-6 text-left">
+        <p><b>BY: </b>   Muhammed Rizan   </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="p-10">
+    <div class="bg-white bg-opacity-80 p-8 rounded-2xl shadow-lg">
+      <h2 class="text-3xl font-bold mb-4">🔎 Introduction</h2>
+      <p class="leading-relaxed">
+        Computers use mathematics at their core — from algorithms and data processing to
+        encryption and graphics. This project shows how math concepts like trigonometry,
+        logarithms, and graphing are applied in IT systems, calculators, and digital design.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
